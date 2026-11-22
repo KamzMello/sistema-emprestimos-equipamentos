@@ -1,6 +1,9 @@
+
 FROM amazoncorretto:25 AS build
 
 WORKDIR /app
+
+RUN dnf install -y tar gzip
 
 COPY . .
 
