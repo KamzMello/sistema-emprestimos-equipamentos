@@ -4,11 +4,13 @@
 package com.projeto.emprestimos.model;
 
 import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
 public class Colaborador {
 
     // ATRIBUTOS
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -21,11 +23,17 @@ public class Colaborador {
 
     private String cargo;
 
+    // OBS.SECURITY:
+   // Recebe a senha, mas impede que ela apareça nas respostas da API.
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    private String senha;
+
     // CONSTRUTOR
     public Colaborador() {
     }
 
     // GETTERS E SETTERS
+
     public Long getId() {
         return id;
     }
@@ -56,5 +64,13 @@ public class Colaborador {
 
     public void setCargo(String cargo) {
         this.cargo = cargo;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 }

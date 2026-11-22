@@ -1,4 +1,3 @@
-
 // 12. ColaboradorController é responsável por receber as requisições
 // HTTP relacionadas aos colaboradores e chamar os Services.
 

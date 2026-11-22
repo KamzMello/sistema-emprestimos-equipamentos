@@ -17,7 +17,7 @@ public interface EmprestimoRepository extends JpaRepository<Emprestimo, Long> {
     // Verifica se um equipamento possui empréstimo
     boolean existsByEquipamentoId(Long equipamentoId);
 
-    // Busca empréstimos não devolvidos e com prazo vencido
+    // Buscar empréstimos não devolvidos e com prazo vencido
     List<Emprestimo> findByDataDevolucaoIsNullAndDataPrevistaDevolucaoBefore(LocalDate data);
 
     // Verifica se o colaborador possui empréstimo atrasado
