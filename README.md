@@ -80,4 +80,4 @@ Nenhum bônus adicional declarado. O projeto contempla os requisitos obrigatóri
 
 ## Deploy
 
-Link da aplicação no Render: **Aguardando publicação.**
+Link da aplicação no Render: https://sistema-emprestimos-equipamentos-tndv.onrender.com
