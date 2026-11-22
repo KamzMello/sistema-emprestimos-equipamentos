@@ -72,7 +72,7 @@ O GET `/equipamentos` permite filtrar por tipo e disponibilidade.
 
 ## Testes
 
-O projeto possui testes unitários com JUnit 5 para verificar o comportamento das entidades e suas regras.
+O projeto possui 11 testes automatizados com JUnit 5, todos executados com sucesso, validando o comportamento das entidades e as principais regras de negócio do sistema.
 
 ## Bônus implementados
 
