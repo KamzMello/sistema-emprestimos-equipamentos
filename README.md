@@ -139,9 +139,11 @@ https://sistema-emprestimos-equipamentos-tndv.onrender.com
 
 ## 🌐 Site — Front-end
 
-Interface web do sistema de empréstimo de equipamentos.
+Interface web do sistema de empréstimo de equipamentos, desenvolvida com React e Vite.
 
-**Link:** A ser adicionado após a publicação do Front-end.
+**Repositório:** [sistema-emprestimos-frontend](https://github.com/KamzMello/sistema-emprestimos-frontend)
+
+**Site publicado:** Em breve.
 
 ## 🎥 Vídeo de apresentação
 
