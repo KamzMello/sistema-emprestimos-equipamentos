@@ -149,4 +149,4 @@ Interface web do sistema de empréstimo de equipamentos, desenvolvida com React 
 
 Vídeo de apresentação do projeto, demonstrando suas funcionalidades e explicando seu desenvolvimento.
 
-**Link:** A ser adicionado após a gravação e publicação do vídeo.
+**Link:** ADD AINDA
